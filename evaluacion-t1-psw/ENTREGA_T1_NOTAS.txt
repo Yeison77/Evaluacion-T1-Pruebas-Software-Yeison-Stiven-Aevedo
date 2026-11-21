@@ -1,0 +1,10 @@
+CORRECCION REALIZADA SEGUN LA GUIA T1
+
+Pregunta 2: la guía exige GET /api/cursos/1 con nombre "Seguridad de Aplicaciones".
+Se ajustó DataLoader para insertar ese curso primero y CursoApiTest para validar el nombre requerido.
+
+IMPORTANTE: ejecutar con una base H2 nueva (la configuración actual usa H2 en memoria y create-drop).
+Pasos: iniciar ModeloT1PswApplication; luego ejecutar CursoApiTest; verificar 2 tests passed.
+Después volver a ejecutar InscripcionServiceTest y RunCucumberTest y tomar capturas nuevas.
+
+La Pregunta 4 evalúa participación/asistencia; no se acredita con el código.
